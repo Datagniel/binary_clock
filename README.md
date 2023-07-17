@@ -20,8 +20,9 @@ This Python script displays a binary clock with little red circles representing 
 ## Usage
 
 1. Clone the repository or download the `binary_clock.py` file.
-2. Install the Pygame library if not already installed: `pip install pygame`.
-3. Run the script: `python binary_clock.py`.
+2. Install the Pygame library if not already installed.
+3. Install the Pywin32 library if not already installed.
+4. Run the script: `python binary_clock.py`.
 
 ## Customization
 
