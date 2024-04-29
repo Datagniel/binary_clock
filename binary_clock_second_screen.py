@@ -91,7 +91,7 @@ while running:
 
     current_time = time.localtime()
     hour_10s = get_binary_representation(current_time.tm_hour // 10, 2)
-    hour_1s = get_binary_representation(current_time.tm_hour % 10, 3)
+    hour_1s = get_binary_representation(current_time.tm_hour % 10, 4)
     minute_10s = get_binary_representation(current_time.tm_min // 10, 3)
     minute_1s = get_binary_representation(current_time.tm_min % 10, 4)
     second_10s = get_binary_representation(current_time.tm_sec // 10, 3)
